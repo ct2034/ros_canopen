@@ -137,17 +137,23 @@ bool RosChain::handle_recover(std_srvs::Trigger::Request  &req, std_srvs::Trigge
         LayerReport status;
         try{
             if(!reset_errors_before_recover_ || emcy_handlers_->callFunc<LayerStatus::Warn>(&EMCYHandler::resetErrors, status)){
+                ROS_ERROR_STREAM("handle_recover / !reset_errors_before_recover_ ..");
+                ROS_ERROR_STREAM("reset_errors_before_recover_: " << int(reset_errors_before_recover_));
+                ROS_ERROR_STREAM("emcy_handlers_->callFunc<LayerStatus::Warn>(&EMCYHandler::resetErrors, status): " << int(emcy_handlers_->callFunc<LayerStatus::Warn>(&EMCYHandler::resetErrors, status)));
+
                 recover(status);
             }
             if(!status.bounded<LayerStatus::Warn>()){
+                ROS_ERROR_STREAM("handle_recover / (!status.bounded<LayerStatus::Warn> ..");
                 diag(status);
             }
             res.success = status.bounded<LayerStatus::Warn>();
             res.message = status.reason();
+            ROS_ERROR_STREAM("handle_recover / res ..");
         }
         catch( const std::exception &e){
             std::string info = boost::diagnostic_information(e);
-            ROS_ERROR_STREAM(info);
+            ROS_ERROR_STREAM("handle_recover / " << info);
             res.message = info;
         }
         catch(...){
@@ -568,7 +574,7 @@ bool RosChain::setup(){
 bool RosChain::setup_chain(){
     std::string hw_id;
     nh_priv_.param("hardware_id", hw_id, std::string("none"));
-    nh_priv_.param("reset_errors_before_recover", reset_errors_before_recover_, false);
+    nh_priv_.param("reset_errors_before_recover", reset_errors_before_recover_, true);
 
     diag_updater_.setHardwareID(hw_id);
     diag_updater_.add("chain", this, &RosChain::report_diagnostics);

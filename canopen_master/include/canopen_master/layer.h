@@ -1,6 +1,8 @@
 #ifndef H_CANOPEN_LAYER
 #define H_CANOPEN_LAYER
 
+#include "ros/ros.h"
+
 #include <vector>
 #include <memory>
 #include <boost/thread/shared_mutex.hpp>
@@ -107,15 +109,23 @@ public:
         }
     }
     void recover(LayerStatus &status) {
+        ROS_ERROR_STREAM("recover()");
+        ROS_ERROR_STREAM("status.state: " + int(status.state));
+        ROS_ERROR_STREAM("state == Error: " << int(state==Error));
         if(state == Error){
             if(status.bounded<LayerStatus::Warn>()){
+                ROS_ERROR_STREAM("status.bounded<LayerStatus::Warn>() ..");
                 state = Recover;
+                ROS_ERROR_STREAM("state == Recover: " << int(state==Recover));
                 CATCH_LAYER_HANDLER_EXCEPTIONS(handleRecover(status), status);
             }
             if(!status.bounded<LayerStatus::Warn>()){
+                ROS_ERROR_STREAM("!status.bounded<LayerStatus::Warn>() ..");
                 halt(status);
             }else{
+                ROS_ERROR_STREAM("else ..");
                 state = Ready;
+                ROS_ERROR_STREAM("state == Ready: " << int(state==Ready));
             }
         }
 
