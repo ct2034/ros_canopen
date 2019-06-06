@@ -1,0 +1,178 @@
+[ INFO] [1559813908.601389359]: Recovering XXX
+EMCY: 83#0000000000000000
+EMCY: 84#0000000000000000
+EMCY: 85#0000000000000000
+EMCY: 86#0000000000000000
+EMCY: 87#0000000000000000
+EMCY: 88#0000000000000000
+[ERROR] [1559813908.613807317]: handle_recover / !reset_errors_before_recover_ ..
+[ERROR] [1559813908.613904724]: reset_errors_before_recover_: 1
+EMCY: 83#0000000000000000
+EMCY: 84#0000000000000000
+EMCY: 85#0000000000000000
+EMCY: 86#0000000000000000
+EMCY: 87#0000000000000000
+EMCY: 88#0000000000000000
+[ERROR] [1559813908.625605172]: emcy_handlers_->callFunc<LayerStatus::Warn>(&EMCYHandler::resetErrors, status): 1
+[ERROR] [1559813908.625726450]: recover()
+[ERROR] [1559813908.625787320]: state == Error: 1
+[ERROR] [1559813908.625862802]: status.bounded<LayerStatus::Warn>() ..
+[ERROR] [1559813908.625929177]: state == Recover: 1
+[ERROR] [1559813908.626017164]: recover()
+[ERROR] [1559813908.626095179]: state == Error: 1
+[ERROR] [1559813908.626193096]: status.bounded<LayerStatus::Warn>() ..
+[ERROR] [1559813908.626235383]: state == Recover: 1
+[ERROR] [1559813908.626275518]: else ..
+[ERROR] [1559813908.626306444]: state == Ready: 1
+[ERROR] [1559813908.626358872]: recover()
+[ERROR] [1559813908.626414089]: state == Error: 1
+[ERROR] [1559813908.626471766]: status.bounded<LayerStatus::Warn>() ..
+[ERROR] [1559813908.626540038]: state == Recover: 1
+[ERROR] [1559813908.626615900]: else ..
+[ERROR] [1559813908.626724590]: state == Ready: 1
+[ERROR] [1559813908.626806473]: recover()
+[ERROR] [1559813908.626873071]: state == Error: 1
+[ERROR] [1559813908.626925523]: status.bounded<LayerStatus::Warn>() ..
+[ERROR] [1559813908.626968518]: state == Recover: 1
+[ERROR] [1559813908.627017701]: recover()
+[ERROR] [1559813908.627063125]: state == Error: 1
+[ERROR] [1559813908.627113642]: status.bounded<LayerStatus::Warn>() ..
+[ERROR] [1559813908.627183288]: state == Recover: 1
+[ERROR] [1559813908.627294123]: else ..
+[ERROR] [1559813908.627359627]: state == Ready: 1
+[ERROR] [1559813908.627411731]: recover()
+[ERROR] [1559813908.627455005]: state == Error: 1
+[ERROR] [1559813908.627511549]: status.bounded<LayerStatus::Warn>() ..
+[ERROR] [1559813908.627578903]: state == Recover: 1
+[ERROR] [1559813908.627667773]: else ..
+[ERROR] [1559813908.627705506]: state == Ready: 1
+[ERROR] [1559813908.627749569]: recover()
+[ERROR] [1559813908.627786630]: state == Error: 1
+[ERROR] [1559813908.627826581]: status.bounded<LayerStatus::Warn>() ..
+[ERROR] [1559813908.627860734]: state == Recover: 1
+[ERROR] [1559813908.627936707]: else ..
+[ERROR] [1559813908.627999062]: state == Ready: 1
+[ERROR] [1559813908.628047617]: recover()
+[ERROR] [1559813908.628080252]: state == Error: 1
+[ERROR] [1559813908.628114799]: status.bounded<LayerStatus::Warn>() ..
+[ERROR] [1559813908.628152550]: state == Recover: 1
+[ERROR] [1559813908.628217657]: else ..
+[ERROR] [1559813908.628261311]: state == Ready: 1
+[ERROR] [1559813908.628302523]: recover()
+[ERROR] [1559813908.628338851]: state == Error: 1
+[ERROR] [1559813908.628377130]: status.bounded<LayerStatus::Warn>() ..
+[ERROR] [1559813908.628413497]: state == Recover: 1
+[ERROR] [1559813908.628471302]: else ..
+[ERROR] [1559813908.628519480]: state == Ready: 1
+[ERROR] [1559813908.628570050]: recover()
+[ERROR] [1559813908.628618404]: state == Error: 1
+[ERROR] [1559813908.628663967]: status.bounded<LayerStatus::Warn>() ..
+[ERROR] [1559813908.628710262]: state == Recover: 1
+[ERROR] [1559813908.628778765]: else ..
+[ERROR] [1559813908.628822902]: state == Ready: 1
+[ERROR] [1559813908.628874784]: else ..
+[ERROR] [1559813908.628914985]: state == Ready: 1
+[ERROR] [1559813908.628965201]: recover()
+[ERROR] [1559813908.629009472]: state == Error: 1
+[ERROR] [1559813908.629056025]: status.bounded<LayerStatus::Warn>() ..
+[ERROR] [1559813908.629100030]: state == Recover: 1
+[ERROR] [1559813908.629150945]: recover()
+[ERROR] [1559813908.629192553]: state == Error: 1
+[ERROR] [1559813908.629239182]: status.bounded<LayerStatus::Warn>() ..
+[ERROR] [1559813908.629281920]: state == Recover: 1
+[ERROR] [1559813908.646286591]: else ..
+[ERROR] [1559813908.646381531]: state == Ready: 1
+[ERROR] [1559813908.646446810]: recover()
+[ERROR] [1559813908.646493572]: state == Error: 1
+[ERROR] [1559813908.646552784]: status.bounded<LayerStatus::Warn>() ..
+[ERROR] [1559813908.646607303]: state == Recover: 1
+[ERROR] [1559813908.666435571]: else ..
+[ERROR] [1559813908.666601565]: state == Ready: 1
+[ERROR] [1559813908.666687895]: recover()
+[ERROR] [1559813908.666745349]: state == Error: 1
+[ERROR] [1559813908.666805402]: status.bounded<LayerStatus::Warn>() ..
+[ERROR] [1559813908.666858773]: state == Recover: 1
+[ERROR] [1559813908.686309464]: else ..
+[ERROR] [1559813908.686420667]: state == Ready: 1
+[ERROR] [1559813908.686493579]: recover()
+[ERROR] [1559813908.686561640]: state == Error: 1
+[ERROR] [1559813908.686622710]: status.bounded<LayerStatus::Warn>() ..
+[ERROR] [1559813908.686680411]: state == Recover: 1
+[ERROR] [1559813908.706314511]: else ..
+[ERROR] [1559813908.706419950]: state == Ready: 1
+[ERROR] [1559813908.706491366]: recover()
+[ERROR] [1559813908.706551237]: state == Error: 1
+[ERROR] [1559813908.706610472]: status.bounded<LayerStatus::Warn>() ..
+[ERROR] [1559813908.706668082]: state == Recover: 1
+[ERROR] [1559813908.726378321]: else ..
+[ERROR] [1559813908.726487975]: state == Ready: 1
+[ERROR] [1559813908.726556637]: recover()
+[ERROR] [1559813908.726612786]: state == Error: 1
+[ERROR] [1559813908.726672440]: status.bounded<LayerStatus::Warn>() ..
+[ERROR] [1559813908.726735856]: state == Recover: 1
+[ERROR] [1559813908.746369193]: else ..
+[ERROR] [1559813908.746485399]: state == Ready: 1
+[ERROR] [1559813908.746595090]: else ..
+[ERROR] [1559813908.746655426]: state == Ready: 1
+[ERROR] [1559813908.746706833]: recover()
+[ERROR] [1559813908.746761063]: state == Error: 1
+[ERROR] [1559813908.746815075]: status.bounded<LayerStatus::Warn>() ..
+[ERROR] [1559813908.746877127]: state == Recover: 1
+[ERROR] [1559813908.746940682]: recover()
+[ERROR] [1559813908.746995840]: state == Error: 1
+[ERROR] [1559813908.747061740]: status.bounded<LayerStatus::Warn>() ..
+[ERROR] [1559813908.747117400]: state == Recover: 1
+[ERROR] [1559813908.747197822]: else ..
+[ERROR] [1559813908.747251555]: state == Ready: 1
+[ERROR] [1559813908.747319475]: recover()
+[ERROR] [1559813908.747369978]: state == Error: 1
+[ERROR] [1559813908.747407254]: status.bounded<LayerStatus::Warn>() ..
+[ERROR] [1559813908.747446492]: state == Recover: 1
+[ERROR] [1559813908.747487592]: else ..
+[ERROR] [1559813908.747568349]: state == Ready: 1
+[ERROR] [1559813908.747630760]: recover()
+[ERROR] [1559813908.747687422]: state == Error: 1
+[ERROR] [1559813908.747748196]: status.bounded<LayerStatus::Warn>() ..
+[ERROR] [1559813908.747813431]: state == Recover: 1
+[ERROR] [1559813908.747884202]: else ..
+[ERROR] [1559813908.747947654]: state == Ready: 1
+[ERROR] [1559813908.748003915]: recover()
+[ERROR] [1559813908.748061615]: state == Error: 1
+[ERROR] [1559813908.748119665]: status.bounded<LayerStatus::Warn>() ..
+[ERROR] [1559813908.748186689]: state == Recover: 1
+[ERROR] [1559813908.748250229]: else ..
+[ERROR] [1559813908.748320258]: state == Ready: 1
+[ERROR] [1559813908.748381475]: recover()
+[ERROR] [1559813908.748454248]: state == Error: 1
+[ERROR] [1559813908.748500678]: status.bounded<LayerStatus::Warn>() ..
+[ERROR] [1559813908.748547528]: state == Recover: 1
+[ERROR] [1559813908.748601670]: else ..
+[ERROR] [1559813908.748647086]: state == Ready: 1
+[ERROR] [1559813908.748695728]: recover()
+[ERROR] [1559813908.748741895]: state == Error: 1
+[ERROR] [1559813908.748794506]: status.bounded<LayerStatus::Warn>() ..
+[ERROR] [1559813908.748847986]: state == Recover: 1
+[ERROR] [1559813908.748899093]: else ..
+[ERROR] [1559813908.748949108]: state == Ready: 1
+[ERROR] [1559813908.749003123]: else ..
+[ERROR] [1559813908.749067892]: state == Ready: 1
+[ERROR] [1559813908.749125357]: recover()
+[ERROR] [1559813908.749185684]: state == Error: 1
+[ERROR] [1559813908.749238542]: status.bounded<LayerStatus::Warn>() ..
+[ERROR] [1559813908.749292393]: state == Recover: 1
+[ERROR] [1559813908.749344662]: else ..
+[ERROR] [1559813908.749418575]: state == Ready: 1
+[ERROR] [1559813908.749476891]: recover()
+[ERROR] [1559813908.749536479]: state == Error: 1
+[ERROR] [1559813908.749595526]: status.bounded<LayerStatus::Warn>() ..
+[ERROR] [1559813908.749671832]: state == Recover: 1
+[ERROR] [1559813908.749740284]: recover()
+[ERROR] [1559813908.749820057]: state == Error: 1
+[ERROR] [1559813908.749880856]: status.bounded<LayerStatus::Warn>() ..
+[ERROR] [1559813908.749941684]: state == Recover: 1
+ER: 129
+[ERROR] [1559813908.752069827]: !status.bounded<LayerStatus::Warn>() ..
+[ERROR] [1559813908.752192063]: !status.bounded<LayerStatus::Warn>() ..
+[ERROR] [1559813908.752257505]: !status.bounded<LayerStatus::Warn>() ..
+[ERROR] [1559813908.752395699]: handle_recover / (!status.bounded<LayerStatus::Warn> ..
+[ERROR] [1559813908.752473549]: handle_recover / res ..
